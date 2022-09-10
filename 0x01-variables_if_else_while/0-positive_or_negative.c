@@ -1,11 +1,11 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+* main - main function
+*
+* Return: return one of the 3 options
+*/
 int main(void)
 {
 	int n;
@@ -25,6 +25,5 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-
 	return (0);
 }
