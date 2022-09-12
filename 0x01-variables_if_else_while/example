@@ -1,0 +1,9 @@
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+/* 
+* main is the main function
+* return will return on the main options
+*/
+
+int main (void)
