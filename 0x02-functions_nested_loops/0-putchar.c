@@ -1,10 +1,21 @@
-#include <stdio.h>
-/* added std out put
- * added std input
- * set the main to be void
+#include "main.h"
+/**
+ * main - main function
+ *
+ * Return: End program
  */
-int main (void)
+int main(void)
 {
-	printf ("_putchar\n");
+	char string[8] = "_putchar";
+	int n = 0;
+
+	while (n < 8)
+	{
+		_putchar(string[n]);
+		++n;
+	}
+
+	_putchar(10);
 	return (0);
 
+}
